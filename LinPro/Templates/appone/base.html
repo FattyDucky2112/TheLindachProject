@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+{%load staticfiles%}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>{%block title_block%}base html {%endblock%}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{%static "css/style.css"%}">
   </head>
   <body>
     <nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navigationbar navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Home</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
