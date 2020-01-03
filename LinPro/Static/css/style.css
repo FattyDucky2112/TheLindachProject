@@ -1,0 +1,14 @@
+body{
+  font-family: 'Karla', sans-serif;
+}
+
+.navigationbar{
+  background-color: #CEECC5;
+}
+
+.jumbotron{
+  margin-top: 4rem;
+  height: 30rem;
+  text-align: center;
+
+}
