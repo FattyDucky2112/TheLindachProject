@@ -9,3 +9,6 @@ class what_i_learned(TemplateView):
 
 class urlinfo(TemplateView):
     template_name = "urlinfo.html"
+
+class cookbook(TemplateView):
+    template_name = "cookbook.html"

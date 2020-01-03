@@ -31,3 +31,9 @@ body{
 .malign{
   text-align: center;
 }
+
+.mimage{
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 80%;
+}
