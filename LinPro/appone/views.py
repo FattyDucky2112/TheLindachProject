@@ -1,9 +1,11 @@
 from django.shortcuts import render
+from django.views.generic import View,TemplateView
 
-# Create your views here.
+class IndexView(TemplateView):
+    template_name = "index.html"
 
-def index(request):
-    return render(request,"index.html")
+class what_i_learned(TemplateView):
+    template_name = "what_i_learned.html"
 
-def login(request):
-    pass
+class urlinfo(TemplateView):
+    template_name = "urlinfo.html"

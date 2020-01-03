@@ -1,8 +1,11 @@
-{%extends "appone/base.html"%}
+{%extends "base.html"%}
+
+{%load staticfiles %}
+
 
 {%block body_block%}
-  <img src="{%static "images/treehouse.jpg" %}" class="img-fluid" alt="Responsive image">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+  <img src="{% static "images/treehouse.jpg" %}" class="img-fluid" alt="Responsive image">
+  <p class = "textblock">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in

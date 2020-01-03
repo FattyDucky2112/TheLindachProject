@@ -1,0 +1,49 @@
+{%extends "base.html"%}
+
+{%load staticfiles %}
+
+
+{%block body_block%}
+  <img src="{% static "images/treehouse.jpg" %}" class="img-fluid" alt="Responsive image">
+  <p class = "textblock">This Page shows all my progress in learning Webdevelopment.</p>
+
+<div class="malign row align-items-start">
+  <div class="card mcard" style="width: 18rem;">
+    <img src="{% static 'images/urls.jpg'%}" class="card-img-top" alt="no image">
+    <div class="card-body">
+      <h5 class="card-title">urls.py</h5>
+      <p class="card-text">Example on how to set up the urls.py file</p>
+      <a href="{% url "appone:urlinfo" %}" class="btn btn-primary">Click for more</a>
+    </div>
+  </div>
+
+
+  <div class="card mcard" style="width: 18rem;">
+    <img src="{% static 'images/urls.jpg'%}" class="card-img-top" alt="no image">
+    <div class="card-body">
+      <h5 class="card-title">urls.py</h5>
+      <p class="card-text">Example on how to set up the urls.py file</p>
+      <a href="{% url "appone:urlinfo" %}" class="btn btn-primary">Click for more</a>
+    </div>
+  </div>
+
+  <div class="card mcard" style="width: 18rem;">
+    <img src="{% static 'images/urls.jpg'%}" class="card-img-top" alt="no image">
+    <div class="card-body">
+      <h5 class="card-title">urls.py</h5>
+      <p class="card-text">Example on how to set up the urls.py file</p>
+      <a href="{% url "appone:urlinfo" %}" class="btn btn-primary">Click for more</a>
+    </div>
+  </div>
+
+  <div class="card mcard" style="width: 18rem;">
+    <img src="{% static 'images/urls.jpg'%}" class="card-img-top" alt="no image">
+    <div class="card-body">
+      <h5 class="card-title">urls.py</h5>
+      <p class="card-text">Example on how to set up the urls.py file</p>
+      <a href="{% url "appone:urlinfo" %}" class="btn btn-primary">Click for more</a>
+    </div>
+  </div>
+</div>
+
+{%endblock%}
