@@ -22,5 +22,6 @@ from appone import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', views.IndexView.as_view(), name = 'index'),
-    url(r'^appone/', include('appone.urls'))
+    url(r'^appone/', include('appone.urls')),
+    url(r'^accountapp/', include('accountapp.urls')),
 ]

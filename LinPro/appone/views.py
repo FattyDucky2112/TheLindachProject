@@ -12,3 +12,6 @@ class urlinfo(TemplateView):
 
 class cookbook(TemplateView):
     template_name = "cookbook.html"
+
+class flexboxes(TemplateView):
+    template_name = "flexboxes.html"
