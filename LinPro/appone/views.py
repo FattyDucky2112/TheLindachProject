@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import View,TemplateView
+from appone.models import Ingredient, Recipes
+from appone.forms import IngredientForm, RecipesForm
+
 
 class IndexView(TemplateView):
     template_name = "index.html"
