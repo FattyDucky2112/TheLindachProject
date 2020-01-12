@@ -1,3 +1,6 @@
+
+app_name ="LinPro"
+
 """LinPro URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
