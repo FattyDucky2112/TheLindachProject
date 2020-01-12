@@ -6,6 +6,6 @@ from accountapp import views
 app_name = "accountapp"
 
 urlpatterns =  [
-    url(r'^login/$',views.register, name = "register"),
-
+    url(r'^register/$',views.register, name = "register"),
+    path('accounts/', include('django.contrib.auth.urls')),
 ]

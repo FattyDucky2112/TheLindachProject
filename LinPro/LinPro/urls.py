@@ -24,4 +24,5 @@ urlpatterns = [
     url(r'^$', views.IndexView.as_view(), name = 'index'),
     url(r'^appone/', include('appone.urls')),
     url(r'^accountapp/', include('accountapp.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
 ]
