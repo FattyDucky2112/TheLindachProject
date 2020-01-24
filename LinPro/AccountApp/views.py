@@ -19,6 +19,7 @@ def register(request):
             user = user_form.save()
             user.set_password(user.set_password)
             user.save()
+            registered = True
 
 
 
