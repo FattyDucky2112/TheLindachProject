@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^cookbook/$',views.cookbook.as_view(), name = "cookbook"),
     url(r'^urlinfo/$',views.urlinfo.as_view(), name = "urlinfo"),
     url(r'^flexboxes/$',views.flexboxes.as_view(), name = "flexboxes"),
+    url(r'^javascript/$',views.javascript.as_view(), name = "javascript"),
 ]

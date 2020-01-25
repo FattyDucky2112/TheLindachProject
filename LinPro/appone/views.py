@@ -18,3 +18,6 @@ class cookbook(TemplateView):
 
 class flexboxes(TemplateView):
     template_name = "flexboxes.html"
+
+class javascript(TemplateView):
+    template_name = "javascript.html"
